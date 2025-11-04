@@ -22,8 +22,12 @@ const ContactSec = () => {
             </span>
           </div>
           <div className="flex flex-wrap items-center gap-3">
-            <a href="#" className="hover:underline">
-              info@zuhaibrashid.com
+            <a
+              href="https://www.zuhaibrashid.com/"
+              target="_blank"
+              className="hover:underline"
+            >
+              zuhaibrashid.com
             </a>
             <span>
               <RiArrowRightUpLongLine />
