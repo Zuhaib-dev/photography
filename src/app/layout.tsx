@@ -59,8 +59,8 @@ export const metadata: Metadata = {
     creator: "@xuhaibx9",
   },
   icons: {
-    icon: "favicon.svg", // make sure you have favicon.ico in /public
-    shortcut: "favicon.svg",
+    icon: "/images/favicon.svg", // make sure you have favicon.ico in /public
+    shortcut: "/images/favicon.svg",
     apple: "/apple-touch-icon.png",
   },
 };
@@ -73,7 +73,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={manrope.className}>
       <head>
-        <link rel="icon" href="favicon.svg" sizes="any" />
+        <link rel="icon" href="/images/favicon.svg" sizes="any" />
       </head>
       <body>
         <NextTopLoader showSpinner={false} color="#ffffff" />
