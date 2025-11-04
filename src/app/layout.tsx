@@ -59,9 +59,9 @@ export const metadata: Metadata = {
     creator: "@xuhaibx9",
   },
   icons: {
-    icon: "/images/favicon.svg", // make sure you have favicon.ico in /public
+    icon: "/images/favicon.svg", 
     shortcut: "/images/favicon.svg",
-    apple: "/apple-touch-icon.png",
+    apple: "/images/apple-touch-icon.svg",
   },
 };
 
