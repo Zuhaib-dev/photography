@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Lenscapes",
     images: [
       {
-        url: "/images/preview.png", // <-- place a 1200x630 image in /public
+        url: "/images/preview.png", 
         width: 1200,
         height: 630,
         alt: "Lenscapes Portfolio Preview",
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
     title: "Lenscapes — Photographer Portfolio by Zuhaib Rashid",
     description:
       "A creative portfolio showcasing stunning photography and storytelling by Zuhaib Rashid.",
-    images: ["/og-image.jpg"],
+    images: ["/images/preview.png"],
     creator: "@xuhaibx9",
   },
   icons: {
-    icon: "/images/favicon.svg", 
+    icon: "/images/favicon.svg",
     shortcut: "/images/favicon.svg",
-    apple: "/images/apple-touch-icon.svg",
+    apple: "/images/apple-touch-icon.png",
   },
 };
 
@@ -73,6 +73,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={manrope.className}>
       <head>
+        {/* ✅ Google Search Console Verification */}
+        <meta
+          name="google-site-verification"
+          content="PhC4G2XmPO_iZ5yQFaXvkOkJHHJEwRRJsjygMozyteA"
+        />
         <link rel="icon" href="/images/favicon.svg" sizes="any" />
       </head>
       <body>
