@@ -1,104 +1,92 @@
-# 📸 Lenscapes — Photographer Portfolio
+# 📸 Lenscapes — A Modern Photographer Portfolio
 
-**Lenscapes** is a modern, elegant, and fully responsive **photographer portfolio web app** built with **Next.js**, **React.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.  
-It’s designed to beautifully showcase photography work, tell stories through visuals, and leave visitors inspired by clean design and fluid animations.
+**Lenscapes** is a modern, elegant, and fully responsive photographer portfolio web app built with **Next.js**, **React.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. It beautifully showcases photography work, tells stories through visuals, and leaves visitors inspired with its clean design and fluid animations.
 
-🌐 **Live Demo:** [https://lenscapes.netlify.app/](https://lenscapes.netlify.app/)
+<!-- Add a high-quality GIF of your project's UI and animations here -->
+![Lenscapes Demo GIF](public/images//preview.png)
 
----
-
-## 🚀 Tech Stack
-
-- ⚛️ **Next.js 14** — App Router, SSR, and image optimization  
-- 💻 **React.js + TypeScript** — Scalable, type-safe components  
-- 🎨 **Tailwind CSS** — Responsive and modern styling  
-- 🌀 **Framer Motion** — Smooth, delightful animations  
-- 🧩 **Shadcn UI** (optional if used) — Clean, reusable UI components  
+### 🌐 **Live Demo:** [https://lenscapes.netlify.app/](https://lenscapes.netlify.app/)
 
 ---
 
-## ✨ Features
+## 🚀 Tech Stack & Tools
 
-- 📷 **Beautiful gallery** — Showcases high-quality photos in a dynamic grid  
-- 🧭 **Smooth navigation** — Page transitions powered by Framer Motion  
-- 🌙 **Modern design** — Minimal, distraction-free, and performance-optimized  
-- 📱 **Fully responsive** — Perfect on all devices  
-- ⚡ **Optimized performance** — Lazy loading and Next.js image optimization  
-- 🧠 **Type-safe codebase** — Clean, modular architecture with TypeScript  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Shadcn UI](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+
+---
+
+## ✨ Key Features
+
+*   📷 **Beautiful Gallery**: Showcases high-quality photos in a dynamic, responsive grid layout.
+*   🧭 **Smooth Navigation**: Seamless page transitions powered by **Framer Motion** for an elegant user experience.
+*   🌙 **Modern & Minimal Design**: A distraction-free interface that puts the focus entirely on the photography.
+*   📱 **Fully Responsive**: Flawless viewing experience on all devices, from mobile phones to desktops.
+*   ⚡ **Optimized for Performance**: Built with **Next.js 14** features like the App Router, Server-Side Rendering (SSR), and Image Optimization for fast load times.
+*   🧠 **Type-Safe Codebase**: A clean, modular, and scalable architecture written in **TypeScript**.
 
 ---
 
 ## 📁 Project Structure
 
-lenscapes/
-│
-├── app/ # App Router pages
-├── components/ # Reusable UI components
-├── public/ # Static assets (images, icons, etc.)
-├── styles/ # Global styles and Tailwind setup
-├── types/ # TypeScript interfaces/types
-└── utils/ # Helper functions or config
+The project follows a clean and intuitive structure to keep the codebase organized and maintainable.
 
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/Zuhaib-dev/photography
+Follow these steps to set up and run the project locally.
 
-# Navigate into the project
-cd lenscapes
+1.  **Clone the repository:**
+    ```
+    git clone https://github.com/Zuhaib-dev/photography.git
+    ```
 
-# Install dependencies
-npm install
+2.  **Navigate to the project directory:**
+    ```
+    cd lenscapes
+    ```
 
-# Run the development server
-npm run dev
+3.  **Install dependencies:**
+    ```
+    npm install
+    ```
 
-# Visit the app
-http://localhost:3000
+4.  **Run the development server:**
+    ```
+    npm run dev
+    ```
 
-
-💡 Design Philosophy
-
-“Every photograph tells a story — Lenscapes is the stage.”
-
-This portfolio focuses on immersive visuals, subtle motion, and fluid interactions, letting photography shine with minimal distraction.
-
-📸 Screenshot Preview
-
-Add a screenshot here after deployment (for example: /public/preview.png)
-
-🧑‍🎨 Author
-
-Zuhaib Rashid
-Frontend Developer & Designer
-
-🌍 Portfolio
-
-💼 LinkedIn
-
-🐙 GitHub
-
-🐦 X (Twitter)
-
-🪄 Acknowledgements
-
-Next.js Documentation
-
-Framer Motion
-
-Tailwind CSS
-
-Inspiration from world-class photography portfolios
-
-🧾 License
-
-This project is licensed under the MIT License — feel free to use and modify it.
-⭐ If you like Lenscapes, give it a star on GitHub!
+5.  **Open your browser** and visit [http://localhost:3000](http://localhost:3000).
 
 ---
 
-Would you like me to make it **more aesthetic for GitHub (with emojis, badges, gradie
+## 💡 Design Philosophy
+
+> “Every photograph tells a story—Lenscapes is the stage.”
+
+This portfolio is built on the principles of immersive visuals, subtle motion, and fluid interactions. The design lets the photography shine with minimal distraction, creating a memorable digital gallery.
+
+---
+
+## 👋 Connect with Me
+
+Created by **Zuhaib Rashid**. Let's connect!
+
+*   **🌍 Portfolio:** [https://www.zuhaibrashid.com/](https://www.zuhaibrashid.com/)
+*   **💼 LinkedIn:** [https://www.linkedin.com/in/zuhaib-rashid-661345318/](https://www.linkedin.com/in/zuhaib-rashid-661345318/)
+*   **🐙 GitHub:** [https://github.com/Zuhaib-dev](https://github.com/Zuhaib-dev)
+*   **🐦 X (Twitter):** [https://x.com/xuhaib_x9](https://x.com/xuhaib_x9)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it as you see fit.
+
+⭐ If you found this project helpful or inspiring, please give it a star on GitHub!
