@@ -79,6 +79,7 @@ export default function RootLayout({
           content="PhC4G2XmPO_iZ5yQFaXvkOkJHHJEwRRJsjygMozyteA"
         />
         <link rel="icon" href="/images/favicon.svg" sizes="any" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
         <NextTopLoader showSpinner={false} color="#ffffff" />
