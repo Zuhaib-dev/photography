@@ -12,7 +12,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Zuhaib Rashid | photographer portfolio",
+  title: "Lenscapes | photographer portfolio",
   description:
     "Explore the portfolio of Zuhaib Rashid a professional photographer.",
 };
