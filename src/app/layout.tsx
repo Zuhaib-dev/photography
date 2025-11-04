@@ -13,35 +13,48 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lenscapes.netlify.app"),
-  title: "Lenscapes | Photographer Portfolio by Zuhaib Rashid",
+  title: {
+    default: "Lenscapes | Photographer Portfolio by Zuhaib Rashid",
+    template: "%s | Lenscapes",
+  },
   description:
-    "Lenscapes is a modern photography portfolio by Zuhaib Rashid — showcasing creative work, stunning landscapes, and visual storytelling through the lens.",
+    "Lenscapes is a modern photography portfolio by Zuhaib Rashid — showcasing breathtaking landscapes, portraits, and creative visual storytelling.",
   keywords: [
     "photography portfolio",
     "Zuhaib Rashid",
     "Lenscapes",
     "photo gallery",
     "photographer website",
-    "nextjs portfolio",
+    "Next.js portfolio",
     "framer motion",
     "modern portfolio",
+    "Srinagar photographer",
+    "travel photography",
+    "landscape photography",
+    "portrait photography",
+    "creative photography",
+    "visual storytelling",
+    "nature photography",
+    "frontend developer portfolio",
   ],
   authors: [{ name: "Zuhaib Rashid", url: "https://www.zuhaibrashid.com/" }],
   creator: "Zuhaib Rashid",
   publisher: "Lenscapes",
+  category: "Photography",
   themeColor: "#000000",
+  applicationName: "Lenscapes",
   alternates: {
     canonical: "https://lenscapes.netlify.app",
   },
   openGraph: {
     title: "Lenscapes — Photographer Portfolio by Zuhaib Rashid",
     description:
-      "Explore Lenscapes — a stunning photography portfolio capturing landscapes, portraits, and timeless moments through the lens of Zuhaib Rashid.",
+      "Explore Lenscapes — a photography portfolio capturing landscapes, portraits, and timeless moments by Zuhaib Rashid.",
     url: "https://lenscapes.netlify.app",
     siteName: "Lenscapes",
     images: [
       {
-        url: "/images/preview.png", 
+        url: "/images/preview.png",
         width: 1200,
         height: 630,
         alt: "Lenscapes Portfolio Preview",
@@ -54,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lenscapes — Photographer Portfolio by Zuhaib Rashid",
     description:
-      "A creative portfolio showcasing stunning photography and storytelling by Zuhaib Rashid.",
+      "A creative photography portfolio by Zuhaib Rashid featuring landscapes, portraits, and stories told through the lens.",
     images: ["/images/preview.png"],
     creator: "@xuhaibx9",
   },
@@ -62,6 +75,21 @@ export const metadata: Metadata = {
     icon: "/images/favicon.svg",
     shortcut: "/images/favicon.svg",
     apple: "/images/apple-touch-icon.png",
+  },
+  manifest: "/manifest.json",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  verification: {
+    google: "PhC4G2XmPO_iZ5yQFaXvkOkJHHJEwRRJsjygMozyteA",
   },
 };
 
@@ -73,13 +101,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={manrope.className}>
       <head>
-        {/* ✅ Google Search Console Verification */}
-        <meta
-          name="google-site-verification"
-          content="PhC4G2XmPO_iZ5yQFaXvkOkJHHJEwRRJsjygMozyteA"
-        />
-        <link rel="icon" href="/images/favicon.svg" sizes="any" />
+        {/* ✅ Progressive Web App support */}
+        <meta name="application-name" content="Lenscapes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Lenscapes" />
+        <meta name="theme-color" content="#000000" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/images/favicon.svg" sizes="any" />
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.svg" />
       </head>
       <body>
         <NextTopLoader showSpinner={false} color="#ffffff" />
