@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 Lenscapes — Photographer Portfolio
 
-## Getting Started
+**Lenscapes** is a modern, elegant, and fully responsive **photographer portfolio web app** built with **Next.js**, **React.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.  
+It’s designed to beautifully showcase photography work, tell stories through visuals, and leave visitors inspired by clean design and fluid animations.
 
-First, run the development server:
+🌐 **Live Demo:** [https://lenscapes.netlify.app/](https://lenscapes.netlify.app/)
+
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ **Next.js 14** — App Router, SSR, and image optimization  
+- 💻 **React.js + TypeScript** — Scalable, type-safe components  
+- 🎨 **Tailwind CSS** — Responsive and modern styling  
+- 🌀 **Framer Motion** — Smooth, delightful animations  
+- 🧩 **Shadcn UI** (optional if used) — Clean, reusable UI components  
+
+---
+
+## ✨ Features
+
+- 📷 **Beautiful gallery** — Showcases high-quality photos in a dynamic grid  
+- 🧭 **Smooth navigation** — Page transitions powered by Framer Motion  
+- 🌙 **Modern design** — Minimal, distraction-free, and performance-optimized  
+- 📱 **Fully responsive** — Perfect on all devices  
+- ⚡ **Optimized performance** — Lazy loading and Next.js image optimization  
+- 🧠 **Type-safe codebase** — Clean, modular architecture with TypeScript  
+
+---
+
+## 📁 Project Structure
+
+lenscapes/
+│
+├── app/ # App Router pages
+├── components/ # Reusable UI components
+├── public/ # Static assets (images, icons, etc.)
+├── styles/ # Global styles and Tailwind setup
+├── types/ # TypeScript interfaces/types
+└── utils/ # Helper functions or config
+
+
+---
+
+## 🛠️ Installation & Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/Zuhaib-dev/photography
+
+# Navigate into the project
+cd lenscapes
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Visit the app
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💡 Design Philosophy
 
-## Learn More
+“Every photograph tells a story — Lenscapes is the stage.”
 
-To learn more about Next.js, take a look at the following resources:
+This portfolio focuses on immersive visuals, subtle motion, and fluid interactions, letting photography shine with minimal distraction.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📸 Screenshot Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add a screenshot here after deployment (for example: /public/preview.png)
 
-## Deploy on Vercel
+🧑‍🎨 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Zuhaib Rashid
+Frontend Developer & Designer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🌍 Portfolio
+
+💼 LinkedIn
+
+🐙 GitHub
+
+🐦 X (Twitter)
+
+🪄 Acknowledgements
+
+Next.js Documentation
+
+Framer Motion
+
+Tailwind CSS
+
+Inspiration from world-class photography portfolios
+
+🧾 License
+
+This project is licensed under the MIT License — feel free to use and modify it.
+⭐ If you like Lenscapes, give it a star on GitHub!
+
+---
+
+Would you like me to make it **more aesthetic for GitHub (with emojis, badges, gradie
