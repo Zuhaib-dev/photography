@@ -149,31 +149,31 @@ export const testimonialItems = [
     id: 1,
     name: "Emily Johnson",
     location: "USA, California",
-    text: "Damien's photography doesn't just capture moments; it captures emotions. Hes work is simply mesmerizing.",
+    text: "Zuhaib's photography doesn't just capture moments; it captures emotions. Hes work is simply mesmerizing.",
   },
   {
     id: 2,
     name: "John Smith",
     location: "USA, California",
-    text: "Damien has an incredible talent for making every event feel effortless, and the results speak for themselves.",
+    text: "Zuhaib has an incredible talent for making every event feel effortless, and the results speak for themselves.",
   },
   {
     id: 3,
     name: "Samantha Davis",
     location: "USA, California",
-    text: "I was blown away by Damien's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
+    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
   },
   {
     id: 4,
     name: "Samantha Davis",
     location: "USA, California",
-    text: "I was blown away by Damien's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
+    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
   },
   {
     id: 5,
     name: "Samantha Davis",
     location: "USA, California",
-    text: "I was blown away by Damien's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
+    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
   },
 ];
 
@@ -260,32 +260,32 @@ export const journeyItems = [
   {
     id: 1,
     title: "Year - 2005",
-    text: "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+    text: "In 2005, Zuhaib acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
   },
   {
     id: 2,
     title: "Year - 2012",
-    text: "In 2012, Damien held her first solo exhibition, showcasing her unique perspective on nature and people through her lens.",
+    text: "In 2012, Zuhaib held her first solo exhibition, showcasing her unique perspective on nature and people through her lens.",
   },
   {
     id: 3,
     title: "Year - 2017",
-    text: "Damien's work took her beyond the USA, capturing breathtaking scenes and cultures from around the world.",
+    text: "Zuhaib's work took her beyond the USA, capturing breathtaking scenes and cultures from around the world.",
   },
   {
     id: 4,
     title: "Year - 2010",
-    text: "Damien pursued a degree in Fine Arts with a focus on photography, refining her technical skills and artistic sensibilities.",
+    text: "Zuhaib pursued a degree in Fine Arts with a focus on photography, refining her technical skills and artistic sensibilities.",
   },
   {
     id: 5,
     title: "Year - 2015",
-    text: "Damien officially launched her photography business in 2015, offering portrait, event, and commercial photography services.",
+    text: "Zuhaib officially launched her photography business in 2015, offering portrait, event, and commercial photography services.",
   },
   {
     id: 6,
     title: "Year - 2020",
-    text: "In 2020, Damien's dedication and creativity earned her several prestigious photography awards, solidifying her position as a visionary photographer.",
+    text: "In 2020, Zuhaib's dedication and creativity earned her several prestigious photography awards, solidifying her position as a visionary photographer.",
   },
 ];
 

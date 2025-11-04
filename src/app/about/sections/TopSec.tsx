@@ -25,7 +25,7 @@ const TopSec = () => {
         className="container"
       >
         {/* Title */}
-        <Title subtitle="About" title="About damien braun" />
+        <Title subtitle="About" title="About Zuhaib Rashid" />
 
         {/* Count up card wrapper */}
         <div className="py-20" ref={ref}>

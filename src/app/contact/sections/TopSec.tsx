@@ -33,7 +33,7 @@ const TopSec = () => {
           <div className="lg:absolute lg:top-[20%] lg:bg-backgroundClr lg:px-5 lg:py-10  lg:max-w-[50%] lg:rounded-br-3xl rounded-tr-3xl">
             <Title subtitle="Contact Me" title="Get in Touch with Me" />
             <motion.p variants={fadeInUp} className="mt-6 lg:mb-[50px]">
-              Step into a world of timeless photography with Damien Braun.
+              Step into a world of timeless photography with Zuhaib Rashid.
               Explore our range of photography services, each crafted to tell
               your unique story through captivating images. Whether it's the
               magic of portraits, the emotion of events, or the allure of

@@ -19,14 +19,14 @@ const Header = () => {
       <div className="container flex justify-between items-center py-5 lg:pb-0">
         {/* Logo */}
         <Link className="text-3xl font-medium uppercase" href={"/"}>
-          Damien
+          Zuhaib
         </Link>
 
         {/* Mobile menu */}
         <nav className={`navbar ${isOpen ? "active" : ""} `}>
           {/* nav top */}
           <div className="flex items-center justify-between mb-8">
-            <h3 className="text-3xl font-medium uppercase">Damien</h3>
+            <h3 className="text-3xl font-medium uppercase">Zuhaib</h3>
             <button
               className="w-[50px] h-[50px] border flex items-center justify-center rounded-full border-neutral-800 hover:bg-neutral-900 transition-colors"
               onClick={handleClick}

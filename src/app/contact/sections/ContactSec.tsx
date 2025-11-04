@@ -15,7 +15,7 @@ const ContactSec = () => {
         <div className="flex flex-wrap items-center gap-10">
           <div className="flex flex-wrap items-center gap-3">
             <a href="#" className="hover:underline">
-              +1-123-456-7890
+              +91 6006414088
             </a>
             <span>
               <RiArrowRightUpLongLine />
@@ -23,7 +23,7 @@ const ContactSec = () => {
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <a href="#" className="hover:underline">
-              info@damien braunphotography.com
+              info@zuhaibrashid.com
             </a>
             <span>
               <RiArrowRightUpLongLine />

@@ -22,7 +22,7 @@ const Footer = () => {
         {/* footer lg text */}
         <motion.div variants={fadeInUp} className="container block">
           <div className="text-[64px] uppercase flex justify-end text-neutral-800 font-semibold sm:text-[100px] md:text-[160px] lg:text-[200px]">
-            <h1>Demien</h1>
+            <h1>Zuhaib</h1>
           </div>
         </motion.div>
         {/* Marquee */}
@@ -78,7 +78,7 @@ const Footer = () => {
               <SocialIcons />
               {/* copy right info */}
               <p>
-                &copy; {new Date().getFullYear()} Damien Braun Photography. All
+                &copy; {new Date().getFullYear()} Zuhaib Rashid Photography. All
                 rights reserved.
               </p>
             </motion.div>

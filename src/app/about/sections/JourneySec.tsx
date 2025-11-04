@@ -19,7 +19,7 @@ const JourneySec = () => {
         className="container"
       >
         {/* Title */}
-        <Title subtitle="Journey" title="Damien's Journey - A Timeline" />
+        <Title subtitle="Journey" title="Zuhaib's Journey - A Timeline" />
 
         {/* Card wrapper */}
         <div className="grid gap-5 mt-20 md:grid-cols-2">
