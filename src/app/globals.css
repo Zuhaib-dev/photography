@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-backgroundClr: #0a0a0a;
+  --color-foregroundClr: #fff;
+}
+
+/* html{
+  @apply overflow-x-hidden
+} */
+
+body {
+  @apply bg-backgroundClr text-foregroundClr overflow-x-hidden;
+}
+
+@layer utilities {
+  .container {
+    @apply px-4 mx-auto sm:max-w-[540px] md:max-w-[760px] lg:max-w-[960px] xl:max-w-[1150px] 2xl:max-w-[1350px];
+  }
+  button {
+    @apply cursor-pointer;
+  }
+  .subtitle {
+    @apply text-neutral-400 uppercase mb-1 text-sm lg:text-base;
+  }
+  p {
+    @apply text-neutral-400 text-base sm:text-lg lg:text-xl;
+  }
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl font-semibold uppercase;
+  }
+  .section {
+    @apply pt-24 md:mt-40;
+  }
+}
+
+@layer components {
+  .primary-btn {
+    @apply bg-neutral-800 px-6 py-4 rounded-[10px] hover:bg-neutral-700 transition-colors border border-neutral-600;
+  }
+}
+
+/* Header */
+.navbar {
+  @apply fixed top-0 left-0 max-w-[320px] w-full h-screen bg-neutral-950 p-8 pt-16 -translate-x-[320px] transition-transform duration-300 z-40;
+}
+.navbar.active {
+  @apply translate-x-0;
+}
+.overlay {
+  @apply fixed top-0 left-0 w-full h-screen bg-neutral-800/50 opacity-0 pointer-events-none transition-opacity duration-300 z-30;
+}
+
+.overlay.active {
+  @apply opacity-100 pointer-events-auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
