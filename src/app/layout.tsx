@@ -120,3 +120,4 @@ export default function RootLayout({
     </html>
   );
 }
+// This web App is created by Zuhaib Rashid for more quries visit zuhiabrashid.com 👍
