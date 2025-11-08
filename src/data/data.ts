@@ -55,7 +55,7 @@ export const socialLinks = [
   },
   {
     icon: RiTwitterFill,
-    link: "https://x.com/xuhaibx9", 
+    link: "https://x.com/xuhaib_x9", 
   },
   {
     icon: RiLinkedinFill,
