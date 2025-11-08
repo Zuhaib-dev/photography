@@ -51,12 +51,15 @@ export const marqueeItems = [
 export const socialLinks = [
   {
     icon: RiFacebookFill,
+    link: "https://www.facebook.com/sam.zuhaib.98/", 
   },
   {
     icon: RiTwitterFill,
+    link: "https://x.com/xuhaibx9", 
   },
   {
     icon: RiLinkedinFill,
+    link: "https://www.linkedin.com/in/zuhaib-rashid-661345318/",
   },
 ];
 
