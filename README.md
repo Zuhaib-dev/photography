@@ -92,4 +92,8 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 ⭐ If you found this project helpful or inspiring, please give it a star on GitHub!
 
 Thanks For Visting👍
-Fell free to Contact for any Freelance project or any source code 
+Fell free to Contact for any Freelance project or any source code!
+
+Also if anybody wants to make changes he can .
+
+
