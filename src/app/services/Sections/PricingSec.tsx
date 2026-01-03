@@ -31,7 +31,7 @@ const PricingSec = ({ subtitle, price }: secProps) => {
             variants={fadeInUp}
             className="flex flex-wrap items-center max-lg:justify-between gap-2 mt-1"
           >
-            <h3 className="text-5xl">$ {price}</h3>
+            <h3 className="text-5xl">₹ {price}</h3>
             {/* Link */}
             <div className="flex items-center border-b border-neutral-800 hover:border-neutral-400 transition">
               <Link href="#" className="mb-2">
