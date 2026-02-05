@@ -56,6 +56,7 @@ const HeroSec = () => {
           <Image
             src="/images/hero-banner.png"
             alt="Professional photography showcase featuring stunning landscape and portrait work by Zuhaib Rashid"
+            fetchPriority="high"
             width={1280}
             height={424}
             className="w-full h-full object-cover"
