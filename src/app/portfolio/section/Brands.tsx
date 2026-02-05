@@ -23,18 +23,21 @@ const Brands = () => {
       {/* wrapper */}
       <motion.div
         variants={fadeIn}
-        className="mt-6 bg-neutral-900 border-y border-neutral-800"
+        className="mt-6 bg-neutral-900 border-y border-neutral-800 py-8 md:py-12"
       >
         <div className="container">
-          <Marquee>
+          <Marquee speed={40} gradient={false} pauseOnHover={true}>
             {logoImages.map((img) => (
-              <div key={img.id}>
+              <div
+                key={img.id}
+                className="mx-8 md:mx-12 lg:mx-16 flex items-center justify-center"
+              >
                 <Image
                   src={img.img}
                   height={201}
-                  width={40}
-                  alt="logo"
-                  className="w-full h-full object-cover"
+                  width={120}
+                  alt={`Brand partner logo ${img.id}`}
+                  className="h-16 w-auto md:h-20 lg:h-24 object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
                 />
               </div>
             ))}
