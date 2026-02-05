@@ -7,7 +7,7 @@ import { faqItems } from "@/data/data";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "@remixicon/react";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer } from "@/motion/animations";
 
 const FaqSec = () => {
@@ -56,9 +56,8 @@ const FaqSec = () => {
             </div>
             {/* Text */}
             <div
-              className={`transition-all duration-300 ease-in-out overflow-y-hidden max-h-0 ${
-                openId === item.id ? "max-h-96" : ""
-              }`}
+              className={`transition-all duration-300 ease-in-out overflow-y-hidden max-h-0 ${openId === item.id ? "max-h-96" : ""
+                }`}
             >
               <p className="px-5 pb-8">{item.text}</p>
             </div>

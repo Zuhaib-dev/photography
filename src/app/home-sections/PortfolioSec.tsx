@@ -5,7 +5,7 @@ import { portfolioSectionItems } from "@/data/data";
 import PortfolioCard from "@/components/PortfolioCard";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { staggerContainer } from "@/motion/animations";
 
 const PortfolioSec = () => {

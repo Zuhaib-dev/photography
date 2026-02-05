@@ -5,7 +5,7 @@ import Link from "next/link";
 import { RiArrowRightUpLongLine } from "@remixicon/react";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeInUp } from "@/motion/animations";
 
 interface cardProps {

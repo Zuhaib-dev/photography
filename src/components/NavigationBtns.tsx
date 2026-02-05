@@ -3,7 +3,7 @@ import { RiArrowLeftSLine, RiArrowRightSLine } from "@remixicon/react";
 import React from "react";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeInUp } from "@/motion/animations";
 
 interface btnProps {

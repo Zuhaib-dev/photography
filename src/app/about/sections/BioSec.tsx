@@ -1,6 +1,6 @@
 "use client";
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer } from "@/motion/animations";
 
 import React from "react";

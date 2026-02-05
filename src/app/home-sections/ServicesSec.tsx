@@ -7,7 +7,7 @@ import Image from "next/image";
 import { servicesHeightligts } from "@/data/data";
 import ServicesCard from "@/components/ServicesCard";
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { staggerContainer, fadeInUp } from "@/motion/animations";
 
 const ServicesSec = () => {

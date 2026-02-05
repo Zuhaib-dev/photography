@@ -13,7 +13,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer } from "@/motion/animations";
 
 const PortfolioSec = () => {

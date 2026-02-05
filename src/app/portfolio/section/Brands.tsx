@@ -5,7 +5,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn, fadeInUp, staggerContainer } from "@/motion/animations";
 
 const Brands = () => {

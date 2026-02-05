@@ -1,6 +1,6 @@
 import { RiArrowRightUpLongLine } from "@remixicon/react";
 import React from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 interface ButtonProps {
   label: string;

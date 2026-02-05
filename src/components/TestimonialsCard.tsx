@@ -12,7 +12,7 @@ import {
 } from "@remixicon/react";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { staggerContainer, fadeInUp } from "@/motion/animations";
 
 //import swipper

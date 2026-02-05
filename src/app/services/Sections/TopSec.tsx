@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Title from "@/components/Title";
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn, fadeInUp, staggerContainer } from "@/motion/animations";
 
 const TopSec = () => {

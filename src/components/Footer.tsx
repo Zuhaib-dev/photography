@@ -7,7 +7,7 @@ import Link from "next/link";
 import SocialIcons from "./SocialIcons";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer } from "@/motion/animations";
 
 const Footer = () => {

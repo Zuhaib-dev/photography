@@ -1,4 +1,4 @@
-import { Variants } from "motion";
+import { Variants } from "framer-motion";
 
 // Stagger container: controls the timing of child animations by delaying each one.
 export const staggerContainer: Variants = {

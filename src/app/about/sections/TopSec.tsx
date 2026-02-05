@@ -7,7 +7,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 //import motion
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn, fadeInUp, staggerContainer } from "@/motion/animations";
 
 const TopSec = () => {
