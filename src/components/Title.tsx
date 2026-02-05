@@ -24,14 +24,14 @@ const Title = ({ subtitle, title, link }: titleProps) => {
       </div>
 
       {link && (
-        <motion.button variants={fadeInUp}>
+        <motion.div variants={fadeInUp}>
           <Link href="#" className="primary-btn flex items-center gap-2">
             {link}
             <span>
               <RiArrowRightLongLine size={20} />
             </span>
           </Link>
-        </motion.button>
+        </motion.div>
       )}
     </div>
   );

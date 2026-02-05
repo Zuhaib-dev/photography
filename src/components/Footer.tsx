@@ -21,9 +21,7 @@ const Footer = () => {
       >
         {/* footer lg text */}
         <motion.div variants={fadeInUp} className="container block">
-          <div className="text-[64px] uppercase flex justify-end text-neutral-800 font-semibold sm:text-[100px] md:text-[160px] lg:text-[200px]">
-            <h1>Zuhaib</h1>
-          </div>
+          <span className="text-[64px] uppercase flex justify-end text-neutral-800 font-semibold sm:text-[100px] md:text-[160px] lg:text-[200px]">Zuhaib</span>
         </motion.div>
         {/* Marquee */}
         <MarqueeSec />
@@ -34,7 +32,7 @@ const Footer = () => {
             <p className="subtitle">A more meaningful home for photography</p>
             {/* button */}
             <Button label="Let's" />
-            <h2>Work Together</h2>
+            <span className="text-3xl font-medium">Work Together</span>
           </motion.div>
 
           {/* Footer list */}

@@ -11,6 +11,7 @@ const SocialIcons = () => {
           rel="noopener noreferrer"
           key={index}
           className="w-10 h-10 bg-neutral-800 flex items-center justify-center rounded-full aspect-square hover:bg-neutral-700 transition-colors"
+          aria-label={item.label}
         >
           <item.icon />
         </a>

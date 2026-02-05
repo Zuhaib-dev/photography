@@ -79,7 +79,7 @@ const TestimonialsCard = () => {
                 {/* Card title */}
                 <div className=" flex items-center justify-between flex-wrap gap-4">
                   <div>
-                    <h5>{item.name}</h5>
+                    <h4>{item.name}</h4>
                     <p>{item.location}</p>
                   </div>
                   {/* Social Icons */}
@@ -107,11 +107,11 @@ const TestimonialsCard = () => {
         variants={fadeInUp}
         className="flex items-center flex-wrap gap-2 border border-neutral-800 max-w-max p-3 rounded-full mt-10"
       >
-        <button className="prev-btn w-11 h-11 bg-neutral-800 max-w-max flex items-center justify-center aspect-square rounded-full hover:bg-neutral-700 transition-colors">
+        <button className="prev-btn w-11 h-11 bg-neutral-800 max-w-max flex items-center justify-center aspect-square rounded-full hover:bg-neutral-700 transition-colors" aria-label="Previous slide">
           <RiArrowLeftSLine size={30} />
         </button>
 
-        <button className="next-btn w-11 h-11 bg-neutral-800 max-w-max flex items-center justify-center aspect-square rounded-full hover:bg-neutral-700 transition-colors">
+        <button className="next-btn w-11 h-11 bg-neutral-800 max-w-max flex items-center justify-center aspect-square rounded-full hover:bg-neutral-700 transition-colors" aria-label="Next slide">
           <RiArrowRightSLine size={30} />
         </button>
       </motion.div>

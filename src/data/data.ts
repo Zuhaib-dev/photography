@@ -52,14 +52,17 @@ export const socialLinks = [
   {
     icon: RiFacebookFill,
     link: "https://www.facebook.com/sam.zuhaib.98/",
+    label: "Facebook",
   },
   {
     icon: RiTwitterFill,
     link: "https://x.com/xuhaib_x9",
+    label: "Twitter",
   },
   {
     icon: RiLinkedinFill,
     link: "https://www.linkedin.com/in/zuhaib-rashid-661345318/",
+    label: "LinkedIn",
   },
 ];
 

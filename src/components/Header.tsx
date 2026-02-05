@@ -41,7 +41,7 @@ const Header = () => {
           </div>
 
           {/* nav list */}
-          <ul className="grid" role="menu">
+          <ul className="grid">
             {navItems.map((item) => (
               <li
                 className="border-t border-neutral-900 text-center "
@@ -52,7 +52,6 @@ const Header = () => {
                   className={`block py-5 hover:bg-neutral-900 ${pathname === item.path ? "bg-neutral-900" : ""
                     }`}
                   onClick={handleClick}
-                  role="menuitem"
                   aria-current={pathname === item.path ? "page" : undefined}
                 >
                   {item.label}
