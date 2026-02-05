@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NextTopLoader from "nextjs-toploader";
+import StructuredData from "@/components/StructuredData";
+import SkipToContent from "@/components/SkipToContent";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -112,9 +114,39 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/images/apple-touch-icon.svg" />
       </head>
       <body>
+        {/* Structured Data for SEO */}
+        <StructuredData
+          type="Person"
+          data={{
+            name: "Zuhaib Rashid",
+            url: "https://lenscapes.netlify.app",
+            image: "https://lenscapes.netlify.app/images/preview.png",
+            jobTitle: "Professional Photographer",
+            description: "Professional photographer specializing in portrait, landscape, event, and commercial photography",
+            sameAs: [
+              "https://www.zuhaibrashid.com/",
+              "https://www.linkedin.com/in/zuhaib-rashid-661345318/",
+              "https://x.com/xuhaib_x9",
+              "https://www.facebook.com/sam.zuhaib.98/",
+            ],
+          }}
+        />
+        <StructuredData
+          type="WebSite"
+          data={{
+            name: "Lenscapes",
+            url: "https://lenscapes.netlify.app",
+            description: "Modern photography portfolio showcasing breathtaking landscapes, portraits, and creative visual storytelling",
+            author: {
+              "@type": "Person",
+              name: "Zuhaib Rashid",
+            },
+          }}
+        />
         <NextTopLoader showSpinner={false} color="#ffffff" />
+        <SkipToContent />
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main id="main-content" className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>

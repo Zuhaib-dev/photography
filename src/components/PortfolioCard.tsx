@@ -21,7 +21,7 @@ const PortfolioCard = ({ img, title, date }: cardProps) => {
       <figure className="mb-5">
         <Image
           src={img}
-          alt={title}
+          alt={`${title} - Photography project from ${date}`}
           width={499}
           height={519}
           className="rounded-4xl w-full h-full object-center"

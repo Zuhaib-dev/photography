@@ -34,10 +34,10 @@ const HeroSec = () => {
           </div>
 
           {/* Shape */}
-          <div className="max-lg:hidden">
+          <div className="max-lg:hidden" aria-hidden="true">
             <Image
               src="/images/shape-1.svg"
-              alt="shape"
+              alt=""
               width={346}
               height={346}
             />
@@ -55,7 +55,7 @@ const HeroSec = () => {
         <motion.figure variants={fadeInUp} className="container">
           <Image
             src="/images/hero-banner.png"
-            alt="hero banner"
+            alt="Professional photography showcase featuring stunning landscape and portrait work by Zuhaib Rashid"
             width={1280}
             height={424}
             className="w-full h-full object-cover"

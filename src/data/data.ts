@@ -32,7 +32,7 @@ export const marqueeItems = [
     label: "Event Photography",
   },
   {
-    label: "Comercial Photography",
+    label: "Commercial Photography",
   },
   {
     label: "Product Photography",
@@ -51,11 +51,11 @@ export const marqueeItems = [
 export const socialLinks = [
   {
     icon: RiFacebookFill,
-    link: "https://www.facebook.com/sam.zuhaib.98/", 
+    link: "https://www.facebook.com/sam.zuhaib.98/",
   },
   {
     icon: RiTwitterFill,
-    link: "https://x.com/xuhaib_x9", 
+    link: "https://x.com/xuhaib_x9",
   },
   {
     icon: RiLinkedinFill,
@@ -107,43 +107,43 @@ export const faqItems = [
   {
     id: 1,
     title: "What type of photography do you specialize in?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "I specialize in portrait, landscape, event, and commercial photography, capturing moments that tell unique stories and showcase the beauty in every frame.",
   },
   {
     id: 2,
     title: "How can I book a photography session with you?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "You can book a session by visiting the Contact page and filling out the inquiry form. I'll get back to you within 24-48 hours to discuss your vision and schedule.",
   },
   {
     id: 3,
     title: "What equipment do you use for your photography?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "I use professional-grade Canon and Sony cameras with a variety of lenses to ensure the highest quality images in any lighting condition or environment.",
   },
   {
     id: 4,
     title: "Can I request a specific location for a shoot?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "Absolutely! I'm happy to shoot at your preferred location. Whether it's an outdoor setting, your home, or a special venue, we can discuss the best options for your session.",
   },
   {
     id: 5,
     title: "What is your editing process like?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "Each photo is carefully edited to enhance colors, lighting, and composition while maintaining a natural look. I use Adobe Lightroom and Photoshop for professional-grade retouching.",
   },
   {
     id: 6,
     title: "Are digital files included in your photography packages?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "Yes! All packages include high-resolution digital files delivered via a secure online gallery where you can download, share, and print your favorite images.",
   },
   {
     id: 7,
     title: "Do you offer prints of your photographs?",
-    text: "Yes, prints are available for purchase. Explore the 'Prints' section for more details on sizes and pricing.",
+    text: "Yes, prints are available for purchase. Explore the 'Prints' section for more details on sizes and pricing, or contact me for custom print options.",
   },
   {
     id: 8,
     title:
       "How long does it take to receive the edited photos after a session?",
-    text: "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    text: "Turnaround time is typically 2-3 weeks for portrait and event sessions, and 3-4 weeks for weddings. Rush delivery options are available upon request.",
   },
 ];
 
@@ -152,7 +152,7 @@ export const testimonialItems = [
     id: 1,
     name: "Emily Johnson",
     location: "USA, California",
-    text: "Zuhaib's photography doesn't just capture moments; it captures emotions. Hes work is simply mesmerizing.",
+    text: "Zuhaib's photography doesn't just capture moments; it captures emotions. His work is simply mesmerizing.",
   },
   {
     id: 2,
@@ -164,19 +164,19 @@ export const testimonialItems = [
     id: 3,
     name: "Samantha Davis",
     location: "USA, California",
-    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
+    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. His photographs are our cherished memories.",
   },
   {
     id: 4,
-    name: "Samantha Davis",
-    location: "USA, California",
-    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
+    name: "Michael Chen",
+    location: "USA, New York",
+    text: "Professional, creative, and incredibly talented. Zuhaib made our family photoshoot fun and the results exceeded all expectations.",
   },
   {
     id: 5,
-    name: "Samantha Davis",
-    location: "USA, California",
-    text: "I was blown away by Zuhaib's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.",
+    name: "Sarah Williams",
+    location: "USA, Texas",
+    text: "The attention to detail and artistic vision Zuhaib brings to every shot is remarkable. Highly recommend for any photography needs!",
   },
 ];
 
