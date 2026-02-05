@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import NextTopLoader from "nextjs-toploader";
 import StructuredData from "@/components/StructuredData";
 import SkipToContent from "@/components/SkipToContent";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -147,6 +148,7 @@ export default function RootLayout({
         <SkipToContent />
         <Header />
         <main id="main-content" className="min-h-screen">{children}</main>
+        <ScrollToTop />
         <Footer />
       </body>
     </html>
