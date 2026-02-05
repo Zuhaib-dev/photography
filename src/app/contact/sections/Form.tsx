@@ -1,7 +1,6 @@
 import React from "react";
 import Title from "@/components/Title";
 import Input from "./InputField";
-import InputField from "./InputField";
 import Button from "@/components/Button";
 const Form = () => {
   return (
