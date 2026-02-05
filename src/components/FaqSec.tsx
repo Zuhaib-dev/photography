@@ -46,6 +46,8 @@ const FaqSec = () => {
               <button
                 className="w-[52px] h-[52px] border border-neutral-800 rounded-full flex justify-center items-center aspect-square hover:bg-neutral-700 transition-colors"
                 onClick={() => handleClick(item.id)}
+                aria-label={openId === item.id ? "Close answer" : "Open answer"}
+                aria-expanded={openId === item.id}
               >
                 {openId === item.id ? (
                   <RiArrowDropDownLine size={30} />

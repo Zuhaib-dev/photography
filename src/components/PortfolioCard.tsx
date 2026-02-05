@@ -42,7 +42,7 @@ const PortfolioCard = ({ img, title, date }: cardProps) => {
       {/* card content */}
       <div className="flex justify-between items-center flex-wrap gap-5">
         <div>
-          <h4 className="text-xl">{title}</h4>
+          <h3 className="text-xl">{title}</h3>
           <p>{date}</p>
         </div>
         <Link
