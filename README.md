@@ -94,4 +94,4 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 Thanks For Visting👍
 Fell free to Contact for any Freelance project or any source code! at zuhaibrashid01@gmail.com
 
-Also if anybody wants to make changes he can . 🙌             
+Also if anybody wants to make changes he can . 🙌
