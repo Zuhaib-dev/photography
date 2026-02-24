@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@remixicon/react": "^4.6.0",
+    "@types/nodemailer": "^7.0.11",
     "framer-motion": "^11.15.0",
     "next": "^16.1.6",
     "next-pwa": "^5.6.0",
     "nextjs-toploader": "^3.8.16",
+    "nodemailer": "^8.0.1",
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
