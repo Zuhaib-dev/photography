@@ -1,6 +1,6 @@
 import React from "react";
 
-interface inputProps {
+interface InputProps {
   htmlFor: string;
   label: string;
   type: string;
@@ -18,17 +18,32 @@ const InputField = ({
   placeholder,
   value,
   onChange,
-}: inputProps) => {
+}: InputProps) => {
   return (
-    <div className="grid gap-2">
-      <label htmlFor={htmlFor}>{label}</label>
+    <div className="group flex flex-col gap-2">
+      <label
+        htmlFor={htmlFor}
+        className="text-xs font-semibold uppercase tracking-[2px] text-neutral-500 group-focus-within:text-purple-400 transition-colors duration-300"
+      >
+        {label}
+      </label>
       <input
         type={type}
         placeholder={placeholder}
         id={id}
         value={value}
         onChange={onChange}
-        className="border-b border-neutral-800 focus:border-neutral-400 focus:border-b outline-0 py-3 transition-colors bg-transparent"
+        className="
+          bg-transparent
+          text-white text-base
+          py-3
+          border-b border-neutral-700
+          focus:border-purple-500
+          outline-none
+          placeholder:text-neutral-600
+          transition-colors duration-300
+          w-full
+        "
       />
     </div>
   );
