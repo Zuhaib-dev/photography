@@ -2,8 +2,8 @@ import { NextResponse } from "next/server";
 
 // counterapi.dev v1 — free, no auth required
 // Increments on every visit and returns the new count
-const NAMESPACE = "zuhaibrashid-portfolio";
-const KEY = "visitors";
+const NAMESPACE = "lenscapes-photography";
+const KEY = "site-visitors";
 
 export async function GET() {
   try {
