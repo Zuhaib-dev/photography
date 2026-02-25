@@ -5,6 +5,7 @@ import Button from "./Button";
 import { footerList } from "@/data/data";
 import Link from "next/link";
 import SocialIcons from "./SocialIcons";
+import VisitorCounter from "./VisitorCounter";
 
 //import motion
 import { motion } from "framer-motion";
@@ -21,7 +22,9 @@ const Footer = () => {
       >
         {/* footer lg text */}
         <motion.div variants={fadeInUp} className="container block">
-          <span className="text-[64px] uppercase flex justify-end text-neutral-800 font-semibold sm:text-[100px] md:text-[160px] lg:text-[200px]">Zuhaib</span>
+          <span className="text-[64px] uppercase flex justify-end text-neutral-800 font-semibold sm:text-[100px] md:text-[160px] lg:text-[200px]">
+            Zuhaib
+          </span>
         </motion.div>
         {/* Marquee */}
         <MarqueeSec />
@@ -55,6 +58,8 @@ const Footer = () => {
             </motion.div>
           ))}
         </div>
+        {/* Visitor Counter */}
+        <VisitorCounter />
         {/* footer bottom */}
         <div className="border-t border-neutral-900">
           <div className="container py-6">
